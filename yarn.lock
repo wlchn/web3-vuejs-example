@@ -1079,6 +1079,16 @@ vue@^3.2.37:
     "@vue/server-renderer" "3.2.39"
     "@vue/shared" "3.2.39"
 
+web3-vuejs@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/web3-vuejs/-/web3-vuejs-0.1.2.tgz#899ec7754e40c433e4174a93295e10fbf39331ec"
+  integrity sha512-UUhCrEKHfvcSWXY+H4F4F9fI2HLaQvK3tzPbDvffGOe0WpdcNys4elXD3EGopkeRsG1HvphF6PK4tUV4lLCCLA==
+  dependencies:
+    "@ethersproject/address" "^5.7.0"
+    "@web3-react/types" "^8.0.20-beta.0"
+  optionalDependencies:
+    "@ethersproject/providers" "^5"
+
 webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/webidl-conversions/-/webidl-conversions-3.0.1.tgz#24534275e2a7bc6be7bc86611cc16ae0a5654871"
