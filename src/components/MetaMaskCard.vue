@@ -7,6 +7,7 @@ defineProps<{ msg: string }>();
 const [connector, { chainId, accounts, account }, store] = useConnector();
 
 onMounted(() => {
+  // @ts-ignore
   void connector.connectEagerly().catch(() => {
     console.debug("Failed to connect eagerly to metamask");
   });
